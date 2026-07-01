@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mlemoula <mlemoula@student.42berlin.de>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/07/01 18:59:38 by mlemoula          #+#    #+#             */
+/*   Updated: 2026/07/01 19:56:01 by mlemoula         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "Animal.hpp"
 #include "Dog.hpp"
 #include "Cat.hpp"
@@ -13,8 +25,8 @@ int main()
 
     std::cout << j->getType() << std::endl;
     std::cout << i->getType() << std::endl;
-    i->makeSound(); // Meow (virtual -> real class)
-    j->makeSound(); // Woof
+    i->makeSound();
+    j->makeSound();
     meta->makeSound();
 
     delete meta;

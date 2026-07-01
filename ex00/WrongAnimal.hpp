@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   WrongAnimal.hpp                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mlemoula <mlemoula@student.42berlin.de>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/07/01 18:59:45 by mlemoula          #+#    #+#             */
+/*   Updated: 2026/07/01 20:00:22 by mlemoula         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef WRONGANIMAL_HPP
 #define WRONGANIMAL_HPP
 
@@ -13,10 +25,10 @@ public:
     WrongAnimal();
     WrongAnimal(const WrongAnimal& src);
     WrongAnimal& operator=(const WrongAnimal& src);
-    ~WrongAnimal(); // NOT virtual, on purpose
+    ~WrongAnimal();
 
     std::string getType() const;
-    void makeSound() const; // NOT virtual, on purpose
+    void makeSound() const;
 };
 
 #endif

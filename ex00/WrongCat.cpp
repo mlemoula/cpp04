@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   WrongCat.cpp                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mlemoula <mlemoula@student.42berlin.de>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/07/01 18:59:49 by mlemoula          #+#    #+#             */
+/*   Updated: 2026/07/01 20:06:56 by mlemoula         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "WrongCat.hpp"
 
 WrongCat::WrongCat()
@@ -26,5 +38,5 @@ WrongCat::~WrongCat()
 
 void WrongCat::makeSound() const
 {
-    std::cout << "Wrong meow (should never be called via WrongAnimal*)" << std::endl;
+    std::cout << "Regular meow (will never be called via WrongAnimal*)" << std::endl;
 }
